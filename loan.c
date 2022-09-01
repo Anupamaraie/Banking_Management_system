@@ -285,7 +285,7 @@ void loan(int num[])
                 }
                 else if (c>mb.amt)
                 {
-                    printf("Error!!\n Entered amount more than payment amount.\n\n");
+                    printf("Error!!\nEntered amount more than payment amount.\n\n");
                     getch();
                     goto k;
                 }
